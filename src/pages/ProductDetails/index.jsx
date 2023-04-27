@@ -57,7 +57,7 @@ export default function ProductDetails() {
                     <div className="product-info-area">
                         <div className="product-img">
                             <img
-                                src={`${BASEURL}/Alameda-imgs/pic_${params.id}.jpg`}
+                                src={`/Alameda-imgs/pic_${params.id}.jpg`}
                                 alt=""
                             />
                         </div>

@@ -7,10 +7,7 @@ export default function ProductCard(props) {
     return (
         <>
             <Product>
-                <img
-                    src={`http://localhost:5173/Alameda-imgs/pic_${product.id}.jpg`}
-                    alt=""
-                />
+                <img src={`/Alameda-imgs/pic_${product.id}.jpg`} alt="" />
                 <h3>{product.name}</h3>
                 <p>${product.price}.00</p>
             </Product>

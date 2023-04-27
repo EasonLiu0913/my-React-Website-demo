@@ -4,7 +4,7 @@ export default function fetchProductData() {
     const [productsInfo, setProductsInfo] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5173/products.json`)
+        fetch(`/products.json`)
             .then((r) => r.json())
             .then((data) => setProductsInfo(data));
     }, []);
