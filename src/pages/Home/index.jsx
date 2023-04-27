@@ -56,6 +56,10 @@ export default function Home() {
             }}
         >
             <Container>
+                <div className="bread-crumbs">
+                    <span>Home</span>
+                </div>
+
                 <div className="carousel" ref={carousel}>
                     <ul
                         className="img-list"

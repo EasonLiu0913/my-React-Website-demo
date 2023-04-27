@@ -10,6 +10,7 @@ export const Nav = styled.nav`
     a {
         color: #fff;
         font-size: 1.3rem;
+        margin-right: 20px;
     }
 
     a:hover {

@@ -10,6 +10,10 @@ export const Container = styled.div`
         padding-top: 70px;
     }
 
+    .bread-crumbs {
+        margin-bottom: 20px;
+    }
+
     .carousel {
         overflow: hidden;
         position: relative;

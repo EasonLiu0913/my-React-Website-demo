@@ -1,9 +1,5 @@
 import { useState } from 'react';
-import Header from './components/Header';
-import Home from './pages/Home';
-import ProductsPage from './pages/ProductPage';
-import Product from './components/ProductCard';
-import ProductDetails from './pages/ProductDetails';
+
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -14,6 +10,13 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
+import Header from './components/Header';
+import Home from './pages/Home';
+import ProductsPage from './pages/ProductPage';
+import ProductDetails from './pages/ProductDetails';
+import LoginPage from './pages/LoginPage';
+import MemberPage from './pages/MemberPage';
+
 function App() {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -21,6 +24,8 @@ function App() {
                 <Route index element={<Home />} />
                 <Route path="/product" element={<ProductsPage />}></Route>
                 <Route path="/product/:id" element={<ProductDetails />} />
+                <Route path="/login" element={<LoginPage />} />
+                <Route path="/member" element={<MemberPage />} />
             </Route>
         )
     );

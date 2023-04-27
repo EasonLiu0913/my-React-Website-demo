@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import Product from '../../components/ProductCard';
 import { Link } from 'react-router-dom';
 import fetchProductData from '../../customHooks/fetchProductData';
-// import './style.css';
 import { Container } from './styled';
 
 export default function ProductsPage() {
