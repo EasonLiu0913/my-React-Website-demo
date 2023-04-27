@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.productArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productArea a {
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    .productArea a {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .productArea a {
+        width: 33.333333%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .productArea a {
+        width: 25%;
+    }
+}
